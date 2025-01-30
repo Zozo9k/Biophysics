@@ -1,1 +1,1 @@
-# Biophysics
+# Chemical reaction networks - quantum simulations
