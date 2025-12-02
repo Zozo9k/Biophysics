@@ -10,10 +10,10 @@ from scipy.sparse import (
     bsr_matrix, coo_matrix, csr_array, csr_matrix,
 )
 
-from reaction_hamiltonian import ReactionHamiltonian
-from diffusion_hamiltonian import DiffusionHamiltonian
-from reduced_HS import ReducedHilbertSpace
-from utils import sparse_kron, ide
+from src.reaction_hamiltonian import ReactionHamiltonian
+from src.diffusion_hamiltonian import DiffusionHamiltonian
+from src.reduced_hilbert import ReducedHilbertSpace
+from src.utils import sparse_kron, ide
 
 
 class Plot:
